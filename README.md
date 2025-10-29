@@ -32,9 +32,9 @@
 To run this project locally, make sure you have **Python (3.0 or above)** and **pip** installed.
 
 $ git clone https://github.com/Shreevatsags/Olympics-Data-Analysis.git
+
 $ cd Olympics-Data-Analysis
-$ pip install -r requirements.txt
-$ jupyter notebook notebooks/Olympics_Analysis.ipynb
+
 
 
 
