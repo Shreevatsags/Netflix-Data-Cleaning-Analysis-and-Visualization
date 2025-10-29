@@ -1,4 +1,6 @@
 🎬 Netflix Data Analysis Project
+
+
 📌 Overview
 
 This project performs data cleaning, analysis, and visualization on the Netflix dataset to discover insights into content types, genre trends, and viewing patterns over time.
@@ -77,7 +79,7 @@ Netflix offers diverse genres, with a strong presence of international films
 
 Clone the repository
 
-git clone https://github.com/yourusername/Netflix-Data-Analysis.git
+git clone https://github.com/Shreevatsags/Netflix-Data-Cleaning-Analysis-and-Visualization
 
 
 Install dependencies
