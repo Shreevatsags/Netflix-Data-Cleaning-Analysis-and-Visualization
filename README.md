@@ -1,46 +1,44 @@
-🎬 Netflix Data Cleaning, Analysis & Visualization
+# 🏅 Olympics Data Cleaning, Analysis & Visualization
 
+## Features
 
-Features
+**Comprehensive Data Cleaning** – Removed duplicates, handled missing values, and standardized column names for accurate analysis.  
 
-Comprehensive Data Cleaning – Handled missing values, duplicates, and inconsistent formats for accurate analysis.
+**Exploratory Data Analysis (EDA)** – Explored country-wise performance, gender participation, and medal trends.  
 
-Exploratory Data Analysis (EDA) – Uncovered insights into Netflix content types, genres, ratings, and release trends.
+**Medal Distribution Analysis** – Visualized Gold, Silver, and Bronze counts across countries and years.  
 
-Content Type Distribution – Visualized proportions of Movies vs TV Shows in Netflix’s library.
+**Country Performance Trends** – Identified dominant countries and analyzed changes over time.  
 
-Ratings Breakdown – Displayed the popularity of TV-MA, TV-14, PG, and other categories.
+**Gender Participation Study** – Compared male vs female athlete representation across events.  
 
-Yearly Trend Analysis – Showed how Netflix’s content growth accelerated after 2015.
+**Sport-Wise Insights** – Highlighted sports contributing the most medals and participation.  
 
-Genre Insights – Highlighted the top-performing genres like International Movies and Dramas.
+---
 
-Tech
+## 🧠 Tech Stack
 
-Python (3.0 or above)
+- **Python (3.0 or above)**  
+- **Pandas**  
+- **NumPy**  
+- **Matplotlib**  
+- **Seaborn**  
+- **Jupyter Notebook**
 
-Pandas
+---
 
-NumPy
+## ⚙️ Installation Guide
 
-Matplotlib
+To run this project locally, make sure you have **Python (3.0 or above)** and **pip** installed.
 
-Seaborn
-
-Jupyter Notebook
-
-Installation Guide
-
-To run this project locally, ensure that you have Python (3.0 or above)
- and pip
- installed.
-
-$ git clone https://github.com/yourusername/Netflix-Data-Analysis.git
-$ cd Netflix-Data-Analysis
+$ git clone https://github.com/Shreevatsags/Olympics-Data-Analysis.git
+$ cd Olympics-Data-Analysis
 $ pip install -r requirements.txt
-$ jupyter notebook notebooks/Netflix_EDA.ipynb
+$ jupyter notebook notebooks/Olympics_Analysis.ipynb
 
-Screenshots
+
+
+## Screenshots
 
 1️⃣ Dataset Overview
 <img src="https://github.com/Shreevatsags/Netflix-Data-Cleaning-Analysis-and-Visualization/blob/main/images/Screenshot%202025-10-29%20210757.png?raw=true" width="800"/>
@@ -66,14 +64,13 @@ Content additions surged after 2015, peaking around 2019–2020.
 
 International Movies and Dramas are Netflix’s most frequent genres.
 
-Contributors
+## Contributors
 
 @Shreevatsa
 
-Designed & Developed by
+## Designed & Developed by
 
 Shreevatsa
 
-Dataset
 
 📦 Source: Netflix Movies and TV Shows – Kaggle
