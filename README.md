@@ -1,5 +1,7 @@
 🎬 Netflix Data Cleaning, Analysis & Visualization
-Features
+
+
+##Features
 
 Comprehensive Data Cleaning – Handled missing values, duplicates, and inconsistent formats for accurate analysis.
 
@@ -13,7 +15,7 @@ Yearly Trend Analysis – Showed how Netflix’s content growth accelerated afte
 
 Genre Insights – Highlighted the top-performing genres like International Movies and Dramas.
 
-Tech
+##Tech
 
 Python (3.0 or above)
 
@@ -27,7 +29,7 @@ Seaborn
 
 Jupyter Notebook
 
-Installation Guide
+##Installation Guide
 
 To run this project locally, ensure that you have Python (3.0 or above)
  and pip
@@ -38,19 +40,23 @@ $ cd Netflix-Data-Analysis
 $ pip install -r requirements.txt
 $ jupyter notebook notebooks/Netflix_EDA.ipynb
 
-Screenshots
-🔹 Distribution of Content by Type
-<img width="723" height="993" src="https://github.com/user-attachments/assets/your-upload-1.png" />
-🔹 Rating on Netflix
-<img width="589" height="782" src="https://github.com/user-attachments/assets/your-upload-2.png" />
-🔹 Total Content on Netflix
-<img width="501" height="1000" src="https://github.com/user-attachments/assets/your-upload-3.png" />
-🔹 Content Added Over Time
-<img width="762" height="1493" src="https://github.com/user-attachments/assets/your-upload-4.png" />
-🔹 Most Common Genres on Netflix
-<img width="739" height="1221" src="https://github.com/user-attachments/assets/your-upload-5.png" />
-Key Insights
-
+##Screenshots
+Data Overview
+<img src="https://github.com/Shreevatsags/Netflix-Data-Analysis/blob/main/Screenshot%202025-10-29%20210757.png?raw=true" width="800"/>
+Content Type Distribution
+<img src="https://github.com/Shreevatsags/Netflix-Data-Analysis/blob/main/Screenshot%202025-10-29%20210809.png?raw=true" width="800"/>
+Country-wise Analysis
+<img src="https://github.com/Shreevatsags/Netflix-Data-Analysis/blob/main/Screenshot%202025-10-29%20210817.png?raw=true" width="800"/>
+Ratings & Genre Insights
+<img src="https://github.com/Shreevatsags/Netflix-Data-Analysis/blob/main/Screenshot%202025-10-29%20210824.png?raw=true" width="800"/>
+Release Year Trend
+<img src="https://github.com/Shreevatsags/Netflix-Data-Analysis/blob/main/Screenshot%202025-10-29%20210840.png?raw=true" width="800"/>
+Top Directors Visualization
+<img src="https://github.com/Shreevatsags/Netflix-Data-Analysis/blob/main/Screenshot%202025-10-29%20210846.png?raw=true" width="800"/>
+Genre Popularity
+<img src="https://github.com/Shreevatsags/Netflix-Data-Analysis/blob/main/Screenshot%202025-10-29%20210852.png?raw=true" width="800"/>
+Final Dashboard View
+<img src="https://github.com/Shreevatsags/Netflix-Data-Analysis/blob/main/Screenshot%202025-10-29%20210901.png?raw=true" width="800"/>
 Movies dominate Netflix’s catalog (≈70%) compared to TV Shows (≈30%).
 
 TV-MA and TV-14 ratings make up the majority of titles.
@@ -59,11 +65,11 @@ Content additions surged after 2015, peaking around 2019–2020.
 
 International Movies and Dramas are Netflix’s most frequent genres.
 
-Contributors
+##Contributors
 
 @Shreevatsa
 
-Designed & Developed by
+##Designed & Developed by
 
 Shreevatsa
 
