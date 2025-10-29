@@ -1,104 +1,72 @@
-🎬 Netflix Data Analysis Project
+🎬 Netflix Data Cleaning, Analysis & Visualization
+Features
 
+Comprehensive Data Cleaning – Handled missing values, duplicates, and inconsistent formats for accurate analysis.
 
-📌 Overview
+Exploratory Data Analysis (EDA) – Uncovered insights into Netflix content types, genres, ratings, and release trends.
 
-This project performs data cleaning, analysis, and visualization on the Netflix dataset to discover insights into content types, genre trends, and viewing patterns over time.
+Content Type Distribution – Visualized proportions of Movies vs TV Shows in Netflix’s library.
 
-🧰 Tech Stack
+Ratings Breakdown – Displayed the popularity of TV-MA, TV-14, PG, and other categories.
 
-Python
+Yearly Trend Analysis – Showed how Netflix’s content growth accelerated after 2015.
 
-Pandas – Data cleaning and manipulation
+Genre Insights – Highlighted the top-performing genres like International Movies and Dramas.
 
-NumPy – Numerical computations
+Tech
 
-Matplotlib / Seaborn – Data visualization
+Python (3.0 or above)
 
-Jupyter Notebook – Interactive exploration
+Pandas
 
-🧹 Data Cleaning
+NumPy
 
-Removed missing values and duplicates
+Matplotlib
 
-Standardized column names and formats
+Seaborn
 
-Converted date_added to datetime format
+Jupyter Notebook
 
-Split and cleaned multi-genre columns for clarity
+Installation Guide
 
-📊 Exploratory Data Analysis (EDA)
+To run this project locally, ensure that you have Python (3.0 or above)
+ and pip
+ installed.
 
-The analysis focuses on:
+$ git clone https://github.com/yourusername/Netflix-Data-Analysis.git
+$ cd Netflix-Data-Analysis
+$ pip install -r requirements.txt
+$ jupyter notebook notebooks/Netflix_EDA.ipynb
 
-Distribution of content types
+Screenshots
+🔹 Distribution of Content by Type
+<img width="723" height="993" src="https://github.com/user-attachments/assets/your-upload-1.png" />
+🔹 Rating on Netflix
+<img width="589" height="782" src="https://github.com/user-attachments/assets/your-upload-2.png" />
+🔹 Total Content on Netflix
+<img width="501" height="1000" src="https://github.com/user-attachments/assets/your-upload-3.png" />
+🔹 Content Added Over Time
+<img width="762" height="1493" src="https://github.com/user-attachments/assets/your-upload-4.png" />
+🔹 Most Common Genres on Netflix
+<img width="739" height="1221" src="https://github.com/user-attachments/assets/your-upload-5.png" />
+Key Insights
 
-Ratings distribution
+Movies dominate Netflix’s catalog (≈70%) compared to TV Shows (≈30%).
 
-Year-wise content addition
+TV-MA and TV-14 ratings make up the majority of titles.
 
-Top genres on Netflix
+Content additions surged after 2015, peaking around 2019–2020.
 
-📈 Visualizations
-1️⃣ Distribution of Content by Type
+International Movies and Dramas are Netflix’s most frequent genres.
 
+Contributors
 
-Movies make up the majority of the Netflix catalog, outnumbering TV shows by a large margin.
+@Shreevatsa
 
-2️⃣ Rating on Netflix
+Designed & Developed by
 
+Shreevatsa
 
-Most of the Netflix content falls under TV-MA and TV-14, showing that mature and teen audiences form a major viewership base.
+Dataset
 
-3️⃣ Total Content on Netflix
-
-
-Roughly 70% of Netflix’s content library consists of Movies, while TV Shows make up around 30%.
-
-4️⃣ Content Added Over Time
-
-
-The number of titles added increased sharply after 2015, peaking around 2019–2020, indicating Netflix’s rapid global expansion.
-
-5️⃣ Most Common Genres on Netflix
-
-
-International Movies, Dramas, and Comedies are the most represented genres on Netflix, highlighting diverse content offerings.
-
-💡 Key Insights
-
-Movies dominate the Netflix library
-
-TV-MA and TV-14 are the most common ratings
-
-Content addition saw a massive rise post-2015
-
-Netflix offers diverse genres, with a strong presence of international films
-
-🚀 How to Run
-
-Clone the repository
-
-git clone https://github.com/Shreevatsags/Netflix-Data-Cleaning-Analysis-and-Visualization
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Open Jupyter Notebook
-
-jupyter notebook notebooks/Netflix_EDA.ipynb
-
-📚 Dataset
-
-Dataset Source: Kaggle – Netflix Movies and TV Shows
-
-🧠 Future Enhancements
-
-Add an interactive dashboard (using Plotly Dash or Streamlit)
-
-Build a content recommendation engine
-
-Perform sentiment analysis using descriptions
+📦 Source: Netflix Movies and TV Shows – Kaggle
